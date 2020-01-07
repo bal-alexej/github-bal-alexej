@@ -1,0 +1,21 @@
+.font:hover {
+  background-color: red;
+}
+.header {
+  background-color: #71E519;
+}
+.header:hover {
+  background-color: red;
+}
+.section {
+  background-color: #2F72CF;
+}
+.section:hover {
+  background-color: red;
+}
+.footer {
+  background-color: #27E519FF;
+}
+.footer:hover {
+  background-color: red;
+}
