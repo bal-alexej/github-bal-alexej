@@ -1,10 +1,17 @@
-.font{&:hover{background-color: red;}}
+.font(@fz: 20px){
+	font-size: @fz;
+	background-color: #3149E5;
+	color:#f0f;
+}
 
-.header{background-color: #71E519;
-	.font;}
+.header{
+.font();
+}
 
-.section{background-color: #2F72CF;
-	.font}
+.section{
+.font(15px);
+}
 
-.footer{background-color:#27E519FF;
-	.font}
+.footer{
+.font(4rem);
+}
