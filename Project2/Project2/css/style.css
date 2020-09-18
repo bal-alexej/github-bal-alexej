@@ -1,0 +1,125 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #E8E8E8;
+}
+
+.content {
+  padding: 105px 0 137px 0;
+  max-width: 841px;
+  margin: 0 auto;
+  font-family: Times New Roman;
+}
+
+.content-top {
+  text-align: center;
+}
+
+.content-top .content-top__category {
+  font-family: Arial;
+  opacity: 0.6;
+  margin-bottom: 23px;
+}
+
+.content-top .content-top__title {
+  font-weight: regular;
+  font-size: 36px;
+  line-height: 50px;
+  margin-bottom: 72px;
+}
+
+.content-image {
+  margin-bottom: 96px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.content-image .content-image__item img {
+  max-width: 100%;
+}
+
+.content-bottom {
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 750px;
+}
+
+.content-bottom .content-bottom__text p {
+  margin-bottom: 70px;
+  font-size: 24px;
+}
+
+.content-bottom .content-bottom__text p .content-bottom__text p {
+  margin-bottom: 70px;
+  font-size: 24px;
+}
+
+.content-bottom__text p:last-child {
+  margin: 0;
+}
+
+.content-bottom-info-list {
+  text-align: left;
+}
+
+.content-bottom-info-list li {
+  font-family: Arial;
+  font-size: 20px;
+  margin-bottom: 14px;
+  background: url(../img/icons/checkicon.svg) left no-repeat;
+  padding: 0 0 0 36px;
+  list-style-type: none;
+  background-size: 25px;
+}
+
+.content-bottom-info-list li:nth-child(1) {
+  margin-top: 70px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.content-bottom-info-list li:nth-child(2) {
+  font-style: italic;
+  color: #80B7B3;
+}
+
+.content-bottom-info-list li:nth-child(4) {
+  text-decoration: line-through;
+}
+
+.content-bottom-info-list li:nth-child(4) span {
+  opacity: 0.3;
+}
+
+.content-bottom-info-list li:last-child {
+  margin: 0px;
+}
+
+.content-bottom-info-link {
+  margin: 0 0 59px 0;
+  text-align: left;
+  padding: 0 0 0 40px;
+}
+
+.content-bottom-info-link .content-bottom-info-links {
+  font-family: Arial;
+  text-align: left;
+  font-weight: Regular;
+  padding: 0px 30px;
+  background-color: #80B7B3;
+  height: 44px;
+  line-height: 46px;
+  display: inline-block;
+  border-radius: 24px;
+  width: 199px;
+  color: #fff;
+  letter-spacing: 0 px;
+}
+
+.content-bottom-info-link span {
+  background: url(../img/icons/Shape2.svg) right no-repeat;
+  padding: 0px 40px 0px 0px;
+}

@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+$color: #fff;
+$colorfonbuttom:#fed136;
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+header {
+  background: url(../img/first-bg.jpg@2x.jpg) no-repeat center top / cover;
+  padding-bottom: 160px;
+}
+
+.container {
+  width: 930px;
+  margin: 0 auto;
+}
+
+
+.logo {
+  margin-top: 41px;
+  // float: left;
+}
+
+.nav {
+  float: right;
+  margin-top: 45px;
+}
+
+
+.menu {
+  padding: 0;
+  margin: 0;
+  display: block;
+
+  li {
+    float: left;
+    margin: 0 41px;
+  }
+
+  a {
+    color: $color;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+}
+
+.titles__first {
+  font-size: 40px;
+  color: $color;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 180px;
+}
+
+h1 {
+  font-size: 75px;
+  color: $color;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 15px;
+
+}
+
+.button {
+  width: 240px;
+  height: 65px;
+  color: #484543;
+  border-radius: 3px;
+  background: $colorfonbuttom;
+  padding: 27px 22px 27px 56px;
+  font-weight: Bold;
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+
+
+@media (min-width:568px) and (max-width: 988px) {
+
+
+  .container {
+    .logo {}
+
+    li {
+      float: left;
+      margin: 0 30px;
+    }
+  }
+}

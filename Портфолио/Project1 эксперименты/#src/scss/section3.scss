@@ -1,0 +1,147 @@
+#about {
+  width: 840px;
+}
+
+.about {
+  .about__item {
+    position: relative;
+
+    .about__item__data {
+      width: 508px;
+      height: 183px;
+      display: inline-block;
+      position: relative;
+      margin-bottom: 92px;
+
+      h3,
+      p {
+        width: 305px;
+        text-align: right;
+        margin-left: -28px;
+      }
+
+      h3 {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 28px;
+      }
+
+      p {
+        font-size: 14px;
+        font-weight: regular;
+        color: #777777;
+        line-height: 20px;
+      }
+
+      img {
+        width: 183px;
+        height: 183px;
+        right: 0;
+        position: absolute;
+      }
+    }
+  }
+}
+
+#left,
+#left1 {
+
+  h3,
+  p {
+    margin-left: 555px;
+    text-align: left;
+  }
+}
+
+#left1 {
+  margin-bottom: 0;
+}
+
+/*                     Вёрстка foooter                                     */
+
+
+
+footer {
+  padding: 0;
+  margin: 0;
+
+  p {
+    font-size: 14px;
+    font-weight: regular;
+    color: #555555;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+  }
+
+  img {
+    height: 113px;
+    width: 113px;
+  }
+
+  padding-bottom: 112px;
+}
+
+
+@media (min-width:568px) and (max-width: 988px) {
+
+  .about {
+    .about__item {
+      margin: 0 auto;
+      .about__item__data {
+        width: 245px;
+        height: 270px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 108px;
+
+
+        h3,
+        p {
+          width: 305px;
+          text-align: center;
+        }
+
+        h3 {
+          font-size: 18px;
+          font-weight: bold;
+          line-height: 28px;
+        }
+
+        p {
+          font-size: 14px;
+          font-weight: regular;
+          color: #777777;
+          line-height: 20px;
+        }
+
+        img {
+          display: inline-block;
+          margin: 0 auto;
+          text-align: center;
+          display: flex;
+
+          width: 183px;
+          height: 183px;
+          position: relative;
+        }
+      }
+    }
+  }
+
+
+
+
+  #left,
+  #left1 {
+
+    h3,
+    p {
+      margin-left: -20px;
+      text-align: center;
+    }
+  }
+
+  #left1 {
+    margin-bottom: 0;
+  }
+}

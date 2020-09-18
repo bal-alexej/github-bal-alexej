@@ -1,0 +1,46 @@
+$colorFonSec2: #F7F7F7;
+
+#portfolio {
+  width: 100%;
+  background-color: $colorFonSec2;
+
+  p {
+    margin-top: 11px;
+    margin-bottom: 76px;
+  }
+
+  img {
+    width: 291px;
+    height: 301px;
+    float: left;
+  }
+}
+
+.work {
+  width: 941px;
+  margin: 0 auto;
+  margin-bottom: 134px;
+}
+
+#work {
+  margin: 0 34px;
+}
+
+// .work img:nth-child(2){
+//   margin-left: 29px;
+// }
+
+// .work img:last-child {
+//   float: right;
+// }
+
+
+
+@media (min-width:568px) and (max-width: 988px) {
+
+  .work {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 134px;
+  }
+}

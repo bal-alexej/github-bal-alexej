@@ -1,0 +1,51 @@
+$color: rgba(11, 20, 25, 0.9);
+$color_text:#fff;
+
+
+.header-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  background-color: $color;
+  padding: 9px 0;
+}
+
+.header-page__start {
+  display: flex;
+  align-items: center;
+}
+
+
+.header-page__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-page__end {
+  display: flex;
+  align-items: center;
+}
+
+.header-page__ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.header-page__link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: $color_text;
+  text-decoration: none;
+  display: block;
+  padding: 15px 35px;
+  font-size: 18px;
+  position: relative;
+  &:before{
+    content:'';
+  }
+}

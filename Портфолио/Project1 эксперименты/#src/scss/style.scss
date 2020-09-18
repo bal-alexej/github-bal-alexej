@@ -1,0 +1,17 @@
+// Сброс всех стилей
+@import "reset";
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+@import "header";
+
+@import "section1";
+
+@import "section2";
+
+@import "section3";
