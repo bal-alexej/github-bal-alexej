@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  header {
+    display: inline-block;
+    height: 900px;
+    width: 1440px;
+  }
+}
+
+.header__logo {
+  height: 145px;
+  position: relative;
+  .logo {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+  }
+}
+
+.header__section {
+  height: 855px;
+  position: relative;
+}
+.color {
+  position: absolute;
+  display: inline-block;
+  width: 269px;
+  height: 610px;
+  left: 150px;
+  top: 0px;
+  .color__color {
+    text-align: left;
+    position: relative;
+    margin-bottom: 5px;
+  }
+  .color__color_zwet {
+    border-radius: 6px;
+    display: inline-block;
+    text-align: left;
+    height: 70px;
+    width: 70px;
+    border-radius: 6px;
+    background-color: #1f2041;
+    // margin-top: 20px;
+    &:nth-child(1) {
+      background: red;
+    }
+  }
+
+  .color__text {
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    left: 110px;
+    top: 8px;
+    p {
+      width: 160px;
+      font-size: 19px;
+      font-weight: 700;
+      text-align: left;
+    }
+    span {
+      font-weight: 400;
+    }
+  }
+}
+
+#z1 {
+  background-color: #000;
+}
+#z2 {
+  background-color: #575870;
+}
+#z3 {
+  background-color: #8f8fa0;
+}
+#z4 {
+  background-color: #c7c7cf;
+}
+#z5 {
+  background-color: #f4f4f6;
+}
+#z6 {
+  background-color: #bc9cff;
+}
+#z7 {
+  background-color: #6fcf97;
+}
+
+.ColorTypeZagolowoki {
+  position: absolute;
+  text-align: left;
+  width: 499px;
+  right: 191px;
+  .h1,
+  .h2,
+  .h3,
+  .h4 {
+    display: inline-block;
+  }
+  .h1__text {
+    display: inline-block;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+  }
+  .h2__text {
+    display: inline-block;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+  }
+  .h3__text {
+    display: inline-block;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+  }
+  .h4__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    display: inline-block;
+
+    text-align: left;
+    width: 400px;
+  }
+}
+
+.ColorTypeZagolowoki__element:before {
+  content: "H1";
+}
